@@ -1,12 +1,11 @@
 .page {
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
 }
 
 .showcase__container {
-    width: 80%;
-    height: 80%;
-    margin 10%;
+    width: 100%;
+    height: 90%;
     background-color: aquamarine;
 }
 
@@ -19,16 +18,33 @@
     background-color: forestgreen;
 }
 
-.showcase__accordian li {
+.showcase__section:hover {
+    background-color: cadetblue;
+    filter: blur(0);
+    flex: 6;
+    filter: contrast(120%);
+}
+
+.showcase__section {
     flex: 1;
     align-items: stretch;
     background-color: blanchedalmond;
-    transition: all 600ms ease-in-out;
+    transition: all 450ms ease-out;
     cursor: pointer;
     border: 2px solid grey;
+    background: url("https://placeimg.com/960/720/arch");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.showcase__accordian li:hover {
-    background-color: cadetblue;
-    flex: 6;
+.showcase__section--closed {
+    filter: blur(3px);
+    filter: grayscale(30%)
+}
+
+.testsection {
+    width: 100vw;
+    height: 900px;
+    background-color: red;
 }
