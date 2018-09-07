@@ -1,0 +1,34 @@
+.page {
+    width: 100vw;
+    height: 100vw;
+}
+
+.showcase__container {
+    width: 80%;
+    height: 80%;
+    margin 10%;
+    background-color: aquamarine;
+}
+
+.showcase__accordian {
+    min-height: 100%;
+    min-width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: forestgreen;
+}
+
+.showcase__accordian li {
+    flex: 1;
+    align-items: stretch;
+    background-color: blanchedalmond;
+    transition: all 600ms ease-in-out;
+    cursor: pointer;
+    border: 2px solid grey;
+}
+
+.showcase__accordian li:hover {
+    background-color: cadetblue;
+    flex: 6;
+}
