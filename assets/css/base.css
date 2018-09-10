@@ -1,6 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Raleway|Titillium+Web');
+
 .page {
     width: 100vw;
     height: 100vh;
+}
+
+.header__container {
+    width: 100vw;
+    height: 30%;
+    background-color: #232323;
+}
+
+.logo__container {
+    min-width: 100%;
+}
+
+.header__logo {
+    width: 40%;
+    margin: 2rem 30%;
+}
+
+.header__heading {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    color: #DCD268;
+}
+
+.contact__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__contact {
+    color: #DCD268;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3rem;
 }
 
 .showcase__container {
